@@ -29,7 +29,7 @@ class App extends Component {
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/services">Services</Link></li>
         </ul>
-        {/* <div className="btnContainer">
+         <div className="btnContainer">
           {this.state.loading ? (
             <Spinner
               style={{ marginBottom: 27 }}
@@ -45,7 +45,7 @@ class App extends Component {
           >
             {this.state.loading ? "Hide Loader" : "Show Loader"}
           </Button>
-        </div> */}
+        </div> 
       </div>
     );
   }
